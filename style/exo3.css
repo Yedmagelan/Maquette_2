@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #F6F4F2;
+    width: 100%;
+}
+.container{
+    padding: 2% 5%;
+    width: 100%;
+    height: 100%;
+}
+
+/*  DEBUT PARTIE HEADER ICI */
+
+.container header{
+    margin-top: 15px;
+    font-size: large;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+header h1{
+    margin-right: 70px;
+}
+header nav{
+    margin-right: 70px;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+header nav ul li{
+    font-size: large;
+margin: 4px 40px 0px 4px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 100;
+    color: darkslategrey;
+    
+}
+header h5{
+    margin-top: 10px;
+}
+header h5 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkslategrey;
+    border: 2px solid darkslategrey;
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: 1.4s;
+}
+header h5 a:hover{
+    color:white;
+    background-color: darkslategrey;
+}
+ /*       FIN DE HERDER   */
+
+
+
+ .container section.presentation{
+     text-align: center;
+     position: relative;
+ }
+ .container section.presentation .info{
+    z-index: 3;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+ }
+ .container section .info h1{
+     font-size: 60px;
+     margin-bottom: 10px;
+}
+.container section .info p{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.container section .info button{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: darkslategrey;
+    color: white;
+    border: 2px solid darkslategrey;
+    padding: 16px 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+ .container section .image{
+     position: absolute;
+     top: 80px   
+ }
+
